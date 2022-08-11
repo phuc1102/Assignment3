@@ -1,0 +1,35 @@
+/* Responsive mobile */
+@media screen and (max-width:768px) {
+    /* Set position for nav bar */
+    #nav-bar .container{
+        position: relative;
+        transform: none;
+        top: 0;
+        left: 0;
+    }
+
+    #nav-bar .container a:not(.nav-bar__user){
+        display: block;
+        padding: 10px;
+    }
+
+    /* Remove border right project item */
+    .certificate__item:nth-child(odd) {
+        border-right: none;
+    }
+
+    /* Footer */
+     #footer ul {
+        display: block;
+    } 
+
+    #footer li a{
+        align-items: center;
+        justify-content: center;
+    }
+
+    .center{
+        margin: 20px 0;
+        font-size: 100%;
+    } 
+}

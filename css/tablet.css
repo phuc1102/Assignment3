@@ -1,0 +1,16 @@
+@media screen and (max-width:1199px) {
+    /* Remove user info in nav bar */
+    #nav-bar a.nav-bar__user{
+        display: none;
+    }
+
+    /* Add margin for project item */
+    .project_item{
+        margin-bottom: 20px;
+    }
+
+    .project_item > div:first-of-type{
+        line-height: normal;
+    }
+}
+
